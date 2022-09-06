@@ -4,6 +4,8 @@ Design inspired by 2007 hotnewhiphop (and laziness)
 
 <img width="1237" alt="CleanShot 2022-09-06 at 13 59 34@2x" src="https://user-images.githubusercontent.com/14024082/188717069-6cb99651-1f32-4609-a0da-c07500cd87de.png">
 
+What an abomination of a website lol. Simplicity at it's finest 🤌. It's so beautiful 🥲🥹.
+
 Search for twitter users and get a list of all music links shared within the past week.
 
 Currently capping the tweet api call at 50 tweets because you know what, I don't get unlimmited twitter resources.
