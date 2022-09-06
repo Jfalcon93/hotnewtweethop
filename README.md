@@ -6,7 +6,7 @@ Design inspired by 2007 hotnewhiphop (and laziness)
 
 What an abomination of a website lol. Simplicity at it's finest 🤌. It's so beautiful 🥲🥹.
 
-Search for twitter users and get a list of all music links shared within the past week.
+Search for twitter users and get a list of all music links shared within the past week. Created this because when I was active on Twitter, I hated having to pull up a music critics page to find new music. The timeline is already a mess. Some people's pages are messes. Just give me the music.
 
 Currently capping the tweet api call at 50 tweets because you know what, I don't get unlimited twitter resources.
 
