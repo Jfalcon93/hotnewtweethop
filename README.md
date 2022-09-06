@@ -8,7 +8,7 @@ What an abomination of a website lol. Simplicity at it's finest 🤌. It's so be
 
 Search for twitter users and get a list of all music links shared within the past week.
 
-Currently capping the tweet api call at 50 tweets because you know what, I don't get unlimmited twitter resources.
+Currently capping the tweet api call at 50 tweets because you know what, I don't get unlimited twitter resources.
 
 ## Getting Started
 
