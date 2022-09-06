@@ -37,10 +37,20 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="m-4 min-h-screen md:m-8">
-      <h3 className="text-xl mb-4">
-        <a href="#">hotnewtweethop.com</a>
-      </h3>
+    <div className="m-4 md:m-8">
+      <div className="flex flex-row justify-between items-baseline">
+        <h3 className="text-xl mb-4">
+          <a href="#">hotnewtweethop.com</a>
+        </h3>
+        <div>
+          <a
+            className="no-underline text-blue-500 hover:underline"
+            href="https://www.jordanfalcon.dev/"
+          >
+            jordanfalcon
+          </a>
+        </div>
+      </div>
       <form className="flex mb-4 w-full md:w-96" onSubmit={submitUsername}>
         <input
           className="border rounded-lg md:w-64 text-center bg-grey border-gray-300 transition duration-300 md:text-xl focus:ring-0 focus:outline-none focus:border-blue-500 focus:border block w-full p-1.5"
