@@ -7,7 +7,7 @@ export default async function handler(req, res) {
   weekAgo = new Date(weekAgo.setDate(weekAgo.getUTCDate() - 7));
   let options = {
     method: "get",
-    url: `https://api.twitter.com/2/users/${id}/tweets?max_results=50&start_time=${weekAgo.toISOString()}&end_time=${now}&tweet.fields=created_at,entities&exclude=replies`,
+    url: `https://api.twitter.com/2/users/${id}/tweets?max_results=75&start_time=${weekAgo.toISOString()}&end_time=${now}&tweet.fields=created_at,entities&exclude=replies`,
     headers: {
       Authorization: `Bearer ${process.env.TWITTER_TOKEN}`,
     },
